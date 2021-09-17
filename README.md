@@ -1,7 +1,14 @@
+<!--
+ * @Author: Leo
+ * @Date: 2021-09-16 17:06:56
+ * @LastEditors: Leo
+ * @LastEditTime: 2021-09-17 11:28:42
+ * @Description: file content
+-->
 # 环境依赖
 vue v2.6+
 # 安装
-npm install vue-country-code-selector
+npm i vue-telinput-pixus
 # 使用示例
 ```js
 <template>
@@ -14,7 +21,7 @@ npm install vue-country-code-selector
 </template>
 
 <script>
-  import countryCodeSelector from 'vue-country-code-selector'
+  import countryCodeSelector from 'vue-telinput-pixus'
   export default {
     name: 'VueTelInput',
     components: {
